@@ -39,7 +39,7 @@ function APIModal({ show, handleClose }) {
     })
     .catch((err) => {
       console.error("FRONTEND ERROR:", err);
-      alert("Failed to save.");
+      alert("Backend failed. Check console.");
     });
 };
 
