@@ -1,5 +1,4 @@
 package com.example.backend;
-
 public class ApiKey {
 
     private int id;
@@ -24,11 +23,11 @@ public class ApiKey {
         this.apiKey = apiKey;
     }
 
-    public String getOwner() {
+    public String getOwnerName() {
         return owner;
     }
 
-    public void setOwner(String owner) {
+    public void setOwnerName(String owner) {
         this.owner = owner;
     }
 
