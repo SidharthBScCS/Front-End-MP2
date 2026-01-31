@@ -15,7 +15,7 @@ function APIModal({ show, handleClose }) {
       windowSeconds: Number(windowSeconds),
     };
 
-    fetch("http://localhost:8080/api/create-key", {
+    fetch("/api", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -39,7 +39,7 @@ function APIModal({ show, handleClose }) {
     })
     .catch((err) => {
       console.error("FRONTEND ERROR:", err);
-      alert("Backend failed. Check console.");
+      alert("What is this!!!");
     });
 };
 
